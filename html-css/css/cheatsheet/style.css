@@ -1,0 +1,93 @@
+body {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.button {
+  background-color: #c0392b;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.button:hover {
+  background-color: #fff;
+  color: #c0392b;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px #c0392b solid;
+}
+
+.box-1 {
+  background-color: #95a5a6;
+  color: #ecf0f1;
+  padding: 2%;
+  margin: 5%;
+  border: 2px #7f8c8d solid;
+  box-shadow: 10px 5px 5px #95a5a6;
+}
+.box-1 h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+.my-form input[type="text"] {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+
+#main-block {
+  margin-top: 2%;
+  float: left;
+  width: 70%;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #95a5a6;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.p-box {
+  width: 800px;
+  height: 500px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.p-box h2 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
