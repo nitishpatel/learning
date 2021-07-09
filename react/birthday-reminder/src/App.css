@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ff7f50;
+}
+
+.card {
+  background-color: #fff;
+  color: #2f3542;
+  margin-top: 5%;
+}
+.photoUser {
+  border-radius: 50%;
+  height: 80px;
+}
+
+.tile {
+  margin: 1%;
+}
